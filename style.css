@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffdd98;
+  color: #cb9c00;
+  margin: 0;
+  padding: 0;
+}
+
+header.cabecalho {
+  background-color: #dfc026;
+  color: rgb(127, 93, 0);
+  text-align: center;
+  padding: 20px 10px;
+}
+
+header.cabecalho h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  color: rgb(255, 255, 255);
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.chamada-ja {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.catalogo {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.catalogo h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.produtos {
+  list-style: none;
+  padding: 0;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.produto {
+  background-color: #fefefd;
+  border: 1px solid #d4a265;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.produto h3 {
+  margin-top: 0;
+}
+
+.sabores-info {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.ver-sabores {
+  background-color: #b99f2a;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ver-sabores:hover {
+  background-color: #dfc026;
+}
+
+.sabores-lista {
+  list-style: none;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.sabores-lista li {
+  margin-bottom: 5px;
+}
+
+footer {
+  background-color: #dfc026;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  font-size: 18px;
+}
