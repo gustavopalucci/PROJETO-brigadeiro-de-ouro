@@ -4,38 +4,58 @@ body {
   color: #cb9c00;
   margin: 0;
   padding: 0;
+
+  /* Para centralizar conteúdo horizontalmente (quando possível) */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+/* Cabeçalho superior (menu) */
 header.cabecalho {
   background-color: #dfc026;
   color: rgb(127, 93, 0);
   text-align: center;
   padding: 20px 10px;
+  width: 100%;
 }
 
+/* Se tiver h1 dentro de header.cabecalho, mas no seu HTML você prefere outro header para o título principal */
 header.cabecalho h1 {
   margin: 0;
   font-size: 2rem;
 }
 
+/* Header central com o nome + redes sociais */
+.header-central {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Links de redes sociais (Whats + Insta) */
 .social-links {
   margin-top: 10px;
 }
 
 .social-links a {
-  color: rgb(255, 255, 255);
+  color: #877800;
   margin: 0 10px;
   text-decoration: none;
+  font-size: 1.1rem;
 }
 
+/* Estilo para a chamada principal “Cardápio” */
 .chamada-ja {
   text-align: center;
   margin: 2rem 0;
+  font-size: 2rem;
 }
 
+/* Estilo da seção de catálogo (produtos) */
 .catalogo {
   text-align: center;
   margin: 2rem 0;
+  width: 100%;
 }
 
 .catalogo h2 {
@@ -43,13 +63,15 @@ header.cabecalho h1 {
   margin-bottom: 20px;
 }
 
+/* Lista de produtos */
 .produtos {
   list-style: none;
   padding: 0;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto;  /* centraliza horizontalmente a lista */
 }
 
+/* Cada produto */
 .produto {
   background-color: #fefefd;
   border: 1px solid #d4a265;
@@ -57,17 +79,22 @@ header.cabecalho h1 {
   padding: 20px;
   margin-bottom: 20px;
   text-align: left;
+  width: 100%;
+  box-sizing: border-box;
 }
 
+/* Título do produto */
 .produto h3 {
   margin-top: 0;
 }
 
+/* Preço ou info de sabores */
 .sabores-info {
   font-style: italic;
   margin-bottom: 10px;
 }
 
+/* Botão para ver/esconder sabores */
 .ver-sabores {
   background-color: #b99f2a;
   color: #fff;
@@ -81,6 +108,7 @@ header.cabecalho h1 {
   background-color: #dfc026;
 }
 
+/* Lista de sabores (inicialmente escondida) */
 .sabores-lista {
   list-style: none;
   padding-left: 20px;
@@ -91,20 +119,23 @@ header.cabecalho h1 {
   margin-bottom: 5px;
 }
 
+/* Rodapé */
 footer {
   background-color: #dfc026;
   color: #ffffff;
   text-align: center;
   padding: 5px 0;
   font-size: 18px;
+  width: 100%;
 }
 
-/* --- ESTILO DA GALERIA DE FOTOS --- */
+/* Estilo da galeria de fotos */
 .titulo-fotos {
   text-align: center;
   margin-top: 30px;
   font-size: 28px;
   color: #d19424;
+  width: 100%;
 }
 
 .galeria-fotos {
